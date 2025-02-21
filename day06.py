@@ -1,8 +1,5 @@
-def dec_oct(n) :
-    if n ==0:
-        return ""
-    else:
-        return dec_oct(n // 8) + str(n % 8)
-
 n = int(input())
-print(dec_oct(n))
+r = 0
+for i in range(n+1):
+    r = r + i
+print(r)
